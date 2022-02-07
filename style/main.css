@@ -1,0 +1,408 @@
+/* BASE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+ background: #141414;
+ font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+ color: white;
+ margin-left: auto;
+}
+/*header{
+   
+    opacity:1;
+    z-index:1;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+   
+}*/
+
+header:hover{
+    opacity: 1  ;
+}
+
+header .container{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+    background:linear-gradient( to bottom, rgb(10, 10, 10) , transparent ); 
+       
+}
+
+header .logo{
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 2px;
+    border-image-width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+a:hover{
+    color:#aaa
+}
+
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.30)100%), url('/img/img3.jpg');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+.descricao {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+    color:#aaa
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 15px;
+    width: 70%;
+}
+
+
+.box-desenhos{
+    margin-right: 5px;
+    display: block;
+}
+.box-desenhos2{
+    margin-top: 40px;
+    margin-right: 5px;
+    display: block;
+}
+
+.assistindo {
+    margin-top: 75px;
+    margin-left: 55px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.emalta{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.populares{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.anime{
+    margin-top: 5px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+/* Area de Filmes.html ⬇ */
+
+.filme-principal2{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.30)100%), url('/img/Filmes/img3.jpg');
+    height: 550px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    
+}
+
+
+.cartoonflix{
+    margin-top: 50px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+.emalta2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.comedia{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.baseadoemlivros{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+/* Area de Series.html ⬇ */
+
+.filme-principal3{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.30)100%), url('/img/Series/barbie6.jpg');
+    height: 550px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+    
+}
+
+
+.cartoonflix2{
+    margin-top: 130px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+
+.dicasparavoce{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.emalta3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.desenhosaltoastral{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.populares2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    vertical-align: bottom;
+    line-height: 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Area de bombando.html ⬇ */
+
+.top10 {
+    line-height:30px;
+    margin: 0 5% 0.2em 5%;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 18px
+}
+
+.top10brasil{
+    text-shadow: 1px 2px 2px white;
+    color: black;
+    font-size: 200px;
+    text-align:end;
+    margin-left: 190px;
+    flex-direction:row;
+}
+
+.top10brasil2{
+    text-shadow: 1px 2px 2px white;
+    color: black;
+    font-size: 200px;
+    text-align:end;
+    margin-left: 95px;
+    flex-direction:row;
+
+}
+
+.carrosel-desenhos2{
+    display: block;
+    margin-top: 1%;
+}
+
+.estreias{
+    margin-bottom: 20px;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1%;
+}
+
+.novidades{
+    margin-bottom: 20px;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1%;
+}
+
+.valeapenaesperar{
+    margin-bottom: 20px;
+    margin-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1%;
+}
+
+/* Area de minhalista.html ⬇ */
+
+.minhalista{
+    line-height:30px;
+    margin: 0 5% 0.2em 5%;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 24px
+}
+
+.carrosel-minhalista{
+    margin-top: 6%;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+}
+.carrosel-minhalista2{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+}
+.carrosel-minhalista3{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+}
+
+.carrosel-minhalista4{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+}
+.carrosel-minhalista5{
+    margin-top: 150px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:baseline;
+    margin-left:auto;
+    height: 50px;
+    width: 100%;
+}
